@@ -6,7 +6,7 @@
     {
       "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "8.47.69.0",
+      "server": "188.114.97.6",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -28,7 +28,7 @@
     {
       "type": "trojan",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "8.47.69.0",
+      "server": "188.114.97.6",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -37,7 +37,11 @@
         "insecure": false,
         "alpn": [
           "http/1.1"
-        ]
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
       },
       "transport": {
         "type": "ws",
@@ -50,22 +54,23 @@
     {
       "type": "trojan",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "8.47.69.0",
+      "server": "188.114.97.6",
       "server_port": 443,
       "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "www.pleadcourt.org",
+        "server_name": "www.ignitelimit.com",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
       },
       "transport": {
         "type": "ws",
         "path": "/assignment",
         "headers": {
-          "Host": "www.pleadcourt.org"
+          "Host": "www.ignitelimit.com"
         }
       }
     },
