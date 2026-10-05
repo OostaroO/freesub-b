@@ -15,15 +15,12 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/e8e2cecb6188f7fb",
-        "headers": {
-          "Host": "argo6.5671234.xyz"
-        }
+        "path": "/e8e2cecb6188f7fb"
       }
     },
     {

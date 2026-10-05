@@ -22,7 +22,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -34,14 +34,21 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "mainline.proxy.rlwy.net",
-      "server_port": 44242,
-      "uuid": "ff07a00f-0592-41dc-b0e1-b41b4732aad0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mainline.proxy.rlwy.net"
+      "server": "131.123.13.93",
+      "server_port": 443,
+      "uuid": "55ccbeb5-0bf4-4e4d-afcb-23c038e73e00",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "1mcfn.67resserv67.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA",
+          "short_id": "29455a3a790acbd0"
         }
       }
     },
@@ -66,27 +73,6 @@
       "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-      "server": "131.123.13.93",
-      "server_port": 443,
-      "uuid": "55ccbeb5-0bf4-4e4d-afcb-23c038e73e00",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "1mcfn.67resserv67.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA",
-          "short_id": "29455a3a790acbd0"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -95,8 +81,7 @@
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 06 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ]
     },
     {
@@ -107,8 +92,7 @@
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 06 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
