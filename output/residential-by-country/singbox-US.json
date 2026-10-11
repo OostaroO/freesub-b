@@ -5,28 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
-      "server": "185.147.27.216",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) R40 - xiaohe",
+      "server": "172.67.133.103",
       "server_port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "uuid": "5f11c240-89df-494c-9c81-8b619023bb58",
       "tls": {
         "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "789156.xyz",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/md/1",
+        "path": "/?ed=2048fp=randomized",
         "headers": {
-          "Host": "ap2.directly.chat"
+          "Host": "789156.xyz"
         }
       }
     },
@@ -35,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) R40 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) R40 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
